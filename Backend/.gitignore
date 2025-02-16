@@ -1,0 +1,26 @@
+target/
+*.iml
+
+# IDE 설정 파일 제외
+.idea/
+*.iml
+
+*.log
+*.jar
+*.class
+.env
+application.yml
+
+# Gradle 캐시 및 빌드 파일 제외
+.gradle/
+build/
+
+# 실행 기록 및 빌드 결과 제외
+*.lock
+*.bin
+file-system.probe
+
+# 환경 설정 파일 (보안 관련)
+application.properties
+application.yml
+.env

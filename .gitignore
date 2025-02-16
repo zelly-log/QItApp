@@ -1,8 +1,0 @@
-target/
-*.iml
-.idea/
-*.log
-*.jar
-*.class
-.env
-application.yml
