@@ -22,6 +22,7 @@ public class SecurityConfig {
             .httpBasic(basic -> basic.disable());
             //jwt 인증을 사용하기 때문에 브라우저 팝업을 띄워 사용자 인증 요구 방식 비활성화
 
+
         return http.build();
     }
 }
